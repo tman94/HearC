@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+@import AudioToolbox;
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@property (nonatomic) AudioQueueRef audioQueue;
 
 @end
 

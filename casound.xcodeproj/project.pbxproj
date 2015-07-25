@@ -12,6 +12,7 @@
 		0452CD501B3846C000718102 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0452CD4F1B3846C000718102 /* Images.xcassets */; };
 		0452CD531B3846C000718102 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0452CD511B3846C000718102 /* MainMenu.xib */; };
 		0452CD5F1B3846C100718102 /* casoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0452CD5E1B3846C100718102 /* casoundTests.m */; };
+		0452CD691B3849CD00718102 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0452CD681B3849CD00718102 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		0452CD581B3846C100718102 /* casoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = casoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0452CD5D1B3846C100718102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0452CD5E1B3846C100718102 /* casoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = casoundTests.m; sourceTree = "<group>"; };
+		0452CD681B3849CD00718102 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0452CD691B3849CD00718102 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		0452CD3C1B3846C000718102 = {
 			isa = PBXGroup;
 			children = (
+				0452CD681B3849CD00718102 /* AudioToolbox.framework */,
 				0452CD471B3846C000718102 /* casound */,
 				0452CD5B1B3846C100718102 /* casoundTests */,
 				0452CD461B3846C000718102 /* Products */,

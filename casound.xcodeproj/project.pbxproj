@@ -405,6 +405,7 @@
 				0452CD641B3846C100718102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0452CD651B3846C100718102 /* Build configuration list for PBXNativeTarget "casoundTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				0452CD671B3846C100718102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
